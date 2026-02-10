@@ -1,0 +1,110 @@
+.form {
+  width: 360px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.04em;
+
+  color: #2e2f42;
+}
+
+/* Delay input */
+.form input[name='delay'] {
+  height: 40px;
+  padding: 8px 16px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+
+  border: 1px solid #808080;
+  border-radius: 4px;
+  outline: none;
+
+  background: #ffffff;
+  color: #2e2f42;
+}
+
+.form input[name='delay']:hover {
+  border-color: #000000;
+}
+
+.form input[name='delay']:focus {
+  border-color: #4e75ff;
+}
+
+.form fieldset {
+  margin: 0;
+  padding: 24px 16px 16px;
+
+  border: 1px solid #808080;
+  border-radius: 4px;
+
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.form fieldset:hover {
+  border-color: #000000;
+}
+
+.form legend {
+  padding: 0 8px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.04em;
+
+  color: #2e2f42;
+}
+
+.form fieldset label {
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+
+  margin: 0;
+}
+
+.form input[type='radio'] {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+
+  accent-color: #4e75ff;
+}
+
+/* Submit button */
+.form button[type='submit'] {
+  height: 40px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #4e75ff;
+  color: #ffffff;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.04em;
+
+  cursor: pointer;
+}
+
+.form button[type='submit']:hover {
+  background: #6c8cff;
+}
